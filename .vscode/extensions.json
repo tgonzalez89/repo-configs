@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+        "charliermarsh.ruff",
+        "foxundermoon.shell-format",
+        "ms-python.debugpy",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-vscode.cpptools",
+        "njpwerner.autodocstring",
+        "redhat.vscode-yaml",
+        "rust-lang.rust-analyzer",
+        "streetsidesoftware.code-spell-checker",
+        "tamasfe.even-better-toml",
+        "timonwong.shellcheck",
+        "usernamehw.errorlens"
+    ]
+}

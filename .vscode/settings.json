@@ -1,0 +1,50 @@
+{
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        120
+    ],
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "[c][cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "C_Cpp.clang_format_fallbackStyle": "Microsoft",
+    "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+    "C_Cpp.codeAnalysis.clangTidy.checks.enabled": [
+        "boost-use-to-string",
+        "bugprone-*",
+        "cert-*",
+        "clang-analyzer-*",
+        "concurrency-*",
+        "cppcoreguidelines-*",
+        "hicpp-*",
+        "misc-*",
+        "modernize-*",
+        "performance-*",
+        "portability-*",
+        "readability-*"
+    ],
+    "C_Cpp.codeAnalysis.clangTidy.checks.disabled": [
+        "bugprone-easily-swappable-parameters"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        }
+    },
+    "ruff.format.args": [
+        "--line-length=120",
+        "--fix",
+        "--unsafe-fixes"
+    ],
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "rust-analyzer.rustfmt.extraArgs": [
+        "--config",
+        "max_width=120"
+    ]
+}

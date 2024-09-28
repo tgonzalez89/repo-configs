@@ -1,0 +1,4 @@
+# SC1090,SC1091: Ignore shellcheck not being able to follow scripts being sourced.
+disable=SC1090,SC1091
+# Allow to source other scripts ouside of the repository.
+external-source=true
